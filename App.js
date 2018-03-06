@@ -14,7 +14,7 @@ export default class App extends React.Component {
   // Retrieve the list of ideas from Airtable
   getIdeas() {
     // Airtable API endpoint, replace with your own
-    let airtableUrl = "https://api.airtable.com/v0/appuYxupabVIVKMof/countries?maxRecords=200&view=Grid%20view";
+    let airtableUrl = "https://api.airtable.com/v0/appuYxupabVIVKMof/countries?maxRecords=3&view=Grid%20view";
 
     // Needed for Airtable authorization, replace with your own API key
     let requestOptions = {
