@@ -184,7 +184,7 @@ export default class App extends React.Component {
       <Container>
         <Header>
           <Body>
-            <Title>travelbase</Title>
+            <Title>Travelbase: my personal travel log</Title>
           </Body>
         </Header>
         <Content>
